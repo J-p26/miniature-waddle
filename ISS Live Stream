@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orbital Live Stream</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .stream-container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+      overflow: hidden;
+      background: #000;
+      border-radius: 8px;
+    }
+    .stream-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .description {
+      margin-top: 10px;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Live Orbital Camera: ISS HD Earth Viewing</h1>
+  <div class="stream-container">
+    <!-- NASA ISS Live Stream (Official YouTube) -->
+    <iframe
+      src="https://www.youtube.com/embed/21X5lGlDOfg"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="description">
+    Live stream from the International Space Station (ISS) HD Earth Viewing Experiment.
+    <br>
+    <small>Note: The stream may be offline during loss of signal or maintenance.</small>
+  </p>
+</body>
+</html>
