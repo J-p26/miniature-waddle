@@ -2,7 +2,7 @@
 const issStreams = [
     {
         name: "ISS HDEV Stream 1",
-        url: "https://www.youtube.com/live/FuuC4dpSQ1M?si=cqdcFERyAdeT3jcO"
+        url: "https://www.youtube.com/live/FuuC4dpSQ1M"
     },
 ];
 
