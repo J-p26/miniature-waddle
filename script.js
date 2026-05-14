@@ -2,20 +2,8 @@
 const issStreams = [
     {
         name: "ISS HDEV Stream 1",
-        url: "https://www.youtube.com/embed/FuuC4dpSQ1M?controls=0"
+        url: "https://www.youtube.com/live/FuuC4dpSQ1M?si=cqdcFERyAdeT3jcO"
     },
-    {
-        name: "ISS HDEV Stream 2",
-        url: "https://www.youtube.com/embed/D4pQhMP3LcI"
-    },
-    {
-        name: "ISS HDEV Stream 3",
-        url: "https://www.youtube.com/embed/86P8XPXpA7U"
-    },
-    {
-        name: "NASA ISS Live Stream",
-        url: "https://www.youtube.com/embed/21X5lGlDOfg"
-    }
 ];
 
 // Function to add streams to the page
